@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+button,
+input,
+select,
+figcaption {
+    text-transform: uppercase;
+}
+
+h2 {
+    margin: 0 0 3% 0;
+    font-size: 20px
+}
+
+input,
+select {
+    border-radius: 10px;
+}
+
+h1,
+h2,
+h3,
+p {
+    text-align: center;
+}
+
+a,
+a:active,
+a:visited {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+button,
+button:active,
+button:focus,
+input,
+textarea {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+button {
+    font-size: 10px;
+}
+
+body {
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto Bold', sans-serif;
+}
+
+.categories,
+.gallery,
+.contacts {
+    padding: 4% 0 5% 0;
+    position: relative;
+    width: 100%;
+}

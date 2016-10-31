@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Miroslava Yaremenko">
+    <meta charset="UTF-8">
+    <title>The bike shop</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="fonts/typicons.min.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/slider.css">
+    <link rel="stylesheet" href="styles/categories.css">
+    <link rel="stylesheet" href="styles/gallery.css">
+    <link rel="stylesheet" href="styles/contacts.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/medias.css">
+</head>
+<body>
+<header>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid"
+         width="160" height="50" viewBox="0 0 160 50">
+        <a href="">
+            <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAAyCAMAAADsvyBXAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACUlBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAAAXIu9ZAAAAxHRSTlMAXeymFQWGe1fz3Qez+ZAno28xygbyg4hBseeOxJIiBOaZoMZRMM3TE/0OWUSTcWKem7gvyNnevcNuSPUYvIDhJUD8Wr+HGZ93Vrdyifh1mFMU6DilAqRQHtwKJHCybWHA39dV21IDVOPkW1yrrODMz9jt8NWnmtLWMyoPPHi0DD0XRvst+h8WPxJp9MFmCMlN7zv+qsfQoZFr7hHlGyC7LC59YBCPQkschU43lJapdM5qWE9Fyyg+tvaNRzI5vq2cnXaKvrP2ogAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAARWSURBVFjDzdj7X1NlHAfwRzfUqSOI4QU1JRxTG4omSLIaYUgElMDSgYbijpDoGDelOcALIJIilVZGBUUEXex+0y5a+fnDes5155ydHV6vTXv2+eHZ8z3b95z3OJyzZyMk6SxaDIs1ZmvaEmBp8jt/CFkG2LB8hX7zStiBdNY4PsBjJAOZuq2PI4s4ssEaJwIJWYXVuq1rsJaQnJQArsP6DXY8odu6cRNyn0Qea5yQDACbY7Y68wHXFtY2MfnYui1261OAm7VMSgGwXZruKNzplKa7gBT5A5Kngd3StEi5tTiBYtYwJVnAMnG2B1glzkqAZ1i7lOwFSj3C7FngOWGyHfCyZqliATaVqYGZ9Mp+nrVKHXqSy/fRxxeACkL2V1Lfi6xNmjioEK4q8hJQnVZTS4uXWZP0eYWiwJ/rA3V0Ul/F2hObBh/w6kHgkB+NS5pYawxz+Ejaa0Cz9ShriEmOCRfJw4+jytJiRwrFdtwScER9mznWIKNwJyReaw1rSrzUtArAlPVRIe9rY60wSxu9Pl5njTDLSQdpZ20wzylymjXBPEHSIc24kBCx6ORvil3dYnFSeCJ6m+yhVaNcdPeKj+WhcmBrqNSwQ3rpmbN98rzXRofiHLl8I2OlTZ53hkJdpUpTB6mVZpnhcOu5cFgsIl469PvEYsAaplF2hsHz7gsXLw2JhW9YUpMewFI2InZ4tB1CGi+2H7m8VCqG6YIb+yqkqtqz6MKoSyoi/e4rYwVyl52odhFR3qAW+Kb2SIPUdNVzLRY4VBaUOgYMTtY4v8i+bjMATljr6Uf4W6pj5zveltsSBOIdSyxwZ8MNE2D/TTqM9RoA0/kL9d396mOPvpcsUH5SBaz1r4cJ8Mr7dPD3GQAr+ANwEfWxD5c8AuCtQ/IrDIEfnOJ7e+IBvRrgcLLAyQ/z9MCPPj5uCnRd3xUtFgJOhRYA+qanpz+RgW30ntGjAnpWV386Az1wwLFYAX6m7RBzcDYrCvycHmAuLjDUpHTHAc4HAoE6GfiF2+3erQF++dXXLj1wi/O2ApzSdkj5xtqpANfQA/iNgfOB+bFvlaZE/wdn5vTA7yobFKDRKaZJt3Iy0OQU+6a/vxrtSRR4za8HTmY3FS0AxA/hGwsDvZqWRIElMUDgR/lzwghY/BMdbLN5LIGDl01u1H0CYK7wfwNOxQKHRo+ZAM/z489njIBH6dBVFweYnRhwQ38sEM074gMnN9JPL7vnFwPgzV/pwufWb4ZAOymKFvGA58ZpuqPAsfHxE7N3DIAT2+6KHU6+465WOOP/PeMP6W1pgbV//rWuOXLPENihXrBWKohKftGxlhOLiVw+ynoNXlrdr5cKTuq35/JjYY6qQ78evFPd/Le8uDvNv3CPfFss/effmuWaYysJpv6SP8W/NK0gJMAaYZYA/8X4AWtF/DwQf/ooSH5Pjya3W6VfZw5wrClG4dpUP7+1B1tGWIPUGWkJtos/v/0H98lTLgp17l0AAAAASUVORK5CYII="
+                   width="160" height="50"/>
+        </a>
+    </svg>
+    <nav>
+        <ul>
+            <li>
+                <a href="">Bicycles</a>
+                <ul>
+                    <li><a href="">Fixed / Single speed</a></li>
+                    <li><a href="">City bikes</a></li>
+                    <li><a href="">Premium series</a></li>
+                </ul>
+            </li>
+            <li><a href="">Parts</a></li>
+            <li><a href="">Accessorise</a></li>
+            <li><a href="">Extras</a></li>
+            <li><a href=""><span class="typcn typcn-shopping-cart"></span></a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div class="slider">
+        <img src="img/Structure/Slider.png" alt="The bike shop">
+        <div class="slider-manage">
+            <a class="left"><p class="typcn typcn-chevron-left-outline"></p></a>
+            <section>
+                <h1>Handmade bicycle</h1>
+                <p>You <span>create</span> the <span>journey,</span> we supply the <span>parts.</span></p>
+                <button class="button-shop">shop bikes</button>
+            </section>
+            <a class="right"><p class="typcn typcn-chevron-right-outline"></p></a>
+        </div>
+    </div>
+    <div class="slider-progress">
+        <a href="" class="slider-scroll"><img src="img/Structure/Scroll_icon_active.png" alt="the bike shop"></a>
+        <a class="slider-active-part"></a>
+    </div>
+    <article class="categories">
+        <h2>Categories</h2>
+        <article>
+            <div class="category-item">
+                <h3>Fixed / single speed</h3>
+                <p>Are You ready for the 27.5 Resolution?</p>
+            </div>
+            <div class="category-item">
+                <h3>Premium series</h3>
+                <p>Exclusive Bike Components</p>
+                <button>Go to store</button>
+            </div>
+            <div class="category-item">
+                <h3>City bikes</h3>
+                <p>Street Playground</p>
+            </div>
+        </article>
+    </article>
+    <article class="gallery">
+        <h2>Popular bikes</h2>
+        <article>
+            <figure class="gallery-item">
+                <img src="img/Gallery/Item_photo_1.png"/>
+                <figcaption>Fixed gear <br>
+                    <span class="price">$249.00</span>
+                </figcaption>
+                <select>
+                    <option>Option</option>
+                    <option>Option 2</option>
+                </select>
+                <button class="button-shop">Buy</button>
+            </figure>
+            <figure class="gallery-item">
+                <img src="img/Gallery/Item_photo_2.png"/>
+                <figcaption>Big boy ultra <br>
+                    <span class="price">$249.00</span>
+                </figcaption>
+                <select>
+                    <option>Option</option>
+                    <option>Option 2</option>
+                </select>
+                <button class="button-shop">Buy</button>
+            </figure>
+            <figure class="gallery-item">
+                <img src="img/Gallery/Item_photo_3.png"/>
+                <figcaption>Sanchaez<br>
+                    <span class="price">$249.00</span>
+                </figcaption>
+                <select>
+                    <option>Option</option>
+                    <option>Option 2</option>
+                </select>
+                <button class="button-shop">Buy</button>
+            </figure>
+
+        </article>
+    </article>
+    <article class="contacts">
+        <h1>Contact us</h1>
+        <p>Please contact us for all inquiries and purchase options.</p>
+        <form>
+            <input type="text" placeholder="name">
+            <input type="text" placeholder="surname">
+            <input type="password" placeholder="user@domain.com">
+            <textarea placeholder="message"></textarea>
+            <button type="submit" class="button-shop">Send</button>
+        </form>
+    </article>
+</main>
+<footer>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid"
+         width="115" height="36" viewBox="0 0 115 36">
+        <a href="">
+            <image xlink:href="data:img/png;base64,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"
+                   width="115" height="36"/>
+        </a>
+    </svg>
+    <nav>
+        <ul>
+            <li><a href="">Bicycles</a></li>
+            <li><a href="">Parts</a></li>
+            <li><a href="">Accessories</a></li>
+            <li><a href="">Extras</a></li>
+        </ul>
+    </nav>
+</footer>
+</body>
+</html>

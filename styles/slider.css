@@ -1,0 +1,99 @@
+img {
+
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+}
+
+button,
+.slider span {
+    color: rgb(253, 255, 66);
+}
+
+.slider {
+    height: calc(100vw * 0.51 - 70px);
+    width: 100%;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+}
+
+.slider-manage {
+    position: relative;
+    top: 40vh;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.slider h1 {
+    font-size: 32px;
+    line-height: 1.65;
+    padding-bottom: 2%;
+}
+
+.slider p {
+    font-family: "Roboto Thin", Arial, serif;
+}
+
+.left,
+.right {
+    margin: 0 1% 0 1%;
+    font-size: 25px;
+    color: rgb(84, 84, 84);
+    border-radius: 10px;
+    border: 1px solid rgb(84, 84, 84);
+    flex-basis: 3%;
+    height: 30px;
+}
+
+.slider-manage section {
+    flex-basis: 94%;
+}
+
+.left:hover,
+.right:hover {
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);;
+}
+
+.button-shop {
+    font-size: 10px;
+    display: block;
+    margin: 2% auto auto auto;
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 35px;
+    text-transform: uppercase;
+}
+
+.button-shop:active,
+.button-shop:hover {
+    color: rgb(255, 255, 255);;
+    background-color: rgb(182, 182, 182);
+
+}
+
+.slider-progress {
+    position: relative;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(169, 166, 165);
+}
+
+.slider-progress .slider-scroll {
+    position: relative;
+    display: block;
+    width: 30px;
+    bottom: 40px;
+    left: 49%;
+}
+
+.slider-progress .slider-active-part {
+    bottom: 0;
+    left: 20%;
+    position: absolute;
+    display: inline-block;
+    height: 4px;
+    background-color: rgb(253, 255, 66);
+    width: 20%;
+}

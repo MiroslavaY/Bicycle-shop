@@ -1,0 +1,55 @@
+.gallery > article {
+    margin-bottom: -1%;
+    text-align: center;
+    position: relative;
+    width: 100%;
+
+}
+
+.gallery-item {
+    display: inline-block;
+    margin: 0 1% 1% 1%;
+    width: 30%;
+}
+
+.gallery-item img {
+    position: relative;
+}
+
+span.price {
+    font-family: "Roboto Thin", Arial, serif;
+}
+
+.gallery-item figcaption,
+.gallery-item span {
+    text-align: left;
+}
+
+.gallery figcaption {
+    font-size: 12px;
+    line-height: 1.7;
+    width: 30%;
+}
+
+select {
+    border: solid 1px rgb(142, 142, 142);
+    width: 108px;
+    height: 30px;
+    padding: 0 12px 0 14px;
+    background: url(../img/Structure/Select_arrow.png) no-repeat 95% transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-size: 22px 16px;
+}
+
+.gallery .button-shop {
+    margin: 0 auto auto auto;
+    width: 70px;
+    height: 30px;
+}
+
+.gallery figcaption,
+.gallery select,
+.gallery button {
+    display: inline-block;
+}
